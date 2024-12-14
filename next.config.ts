@@ -1,7 +1,6 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
+module.exports = {
+  experimental: {
+      appDir: true, // App Routerを有効化
+  },
+  srcDir: 'src', // srcディレクトリをルートとして設定
 };
-
-export default nextConfig;

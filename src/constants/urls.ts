@@ -1,0 +1,2 @@
+export const appleAppStoreUrl = 'https://apps.apple.com/jp/app/%E8%88%88%E5%91%B3%E3%81%AE%E3%81%82%E3%82%8B%E6%96%87%E7%AB%A0%E3%81%A7%E8%8B%B1%E8%AA%9E%E5%AD%A6%E7%BF%92badeasytranslator/id6502329660'
+export const googlePlayStoreUrl = 'https://play.google.com/store/apps/datasafety?id=preparation.badEasyTranslater'
