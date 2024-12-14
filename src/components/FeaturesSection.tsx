@@ -1,4 +1,4 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card'
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './card'
 import { Search, BookOpen, Zap } from 'lucide-react'
 
 export default function FeaturesSection() {
