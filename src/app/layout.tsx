@@ -1,5 +1,6 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -48,7 +49,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ja">
-      <body className={inter.className}>{children}</body>
+      <head>
+        <meta
+          name="google-site-verification"
+          content="yMQxDYVklkdhT0tm_D2LQowaX4jseIHRteUI6VRZuu8"
+        />
+      </head>
+      <body className={inter.className}>
+        {children} <Analytics />
+      </body>
     </html>
   );
 }
