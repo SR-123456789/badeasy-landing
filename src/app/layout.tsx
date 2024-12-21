@@ -41,6 +41,12 @@ export const metadata = {
     images: ["/icon.png"],
   },
 };
+const structuredData = {
+  "@context": "https://badeasy-translator.prep-an.com/",
+  "@type": "WebSite",
+  "name": "BadeasyTranslator",
+  "url": "https://badeasy-translator.prep-an.com",
+};
 
 export default function RootLayout({
   children,
@@ -53,6 +59,10 @@ export default function RootLayout({
         <meta
           name="google-site-verification"
           content="yMQxDYVklkdhT0tm_D2LQowaX4jseIHRteUI6VRZuu8"
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
         />
       </head>
       <body className={inter.className}>
