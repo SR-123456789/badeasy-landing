@@ -11,6 +11,11 @@ import 'swiper/css/pagination'
 
 export default function FeaturesCarousel() {
   const features = [
+        {
+      icon: <Zap className="h-12 w-12 text-primary" />,
+      title: '辞書なしで英長文学習ができる',
+      description: 'わからない単語はワンタップで意味を表示し、辞書検索も可能です。',
+    },
     {
       icon: <Zap className="h-12 w-12 text-primary" />,
       title: 'ワンタップで意味表示',

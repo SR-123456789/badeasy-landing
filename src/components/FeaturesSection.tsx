@@ -5,7 +5,12 @@ export default function FeaturesSection() {
   const features = [
     {
       icon: <Zap className="h-6 w-6 text-blue-500" />,
-      title: 'ワンタップで意味表示',
+      title: '辞書なしで英長文学習ができる',
+      description: 'わからない単語はワンタップで意味を表示し、辞書検索も可能です。',
+    },
+    {
+      icon: <Zap className="h-6 w-6 text-blue-500" />,
+      title: 'ワンタップで単語の意味表示',
       description: '気になる単語をタップするだけで、すぐに意味が表示されます。',
     },
     {

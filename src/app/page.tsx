@@ -3,6 +3,7 @@ import FeaturesCarousel from "@/components/FeaturesCarousel";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
+import FeatureIntroduction from "@/components/MainFeaturesSentence";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Header />
       <HeroSection />
        <FeaturesCarousel />
+       <FeatureIntroduction />
       <DownloadSection />
       <Footer />
     </main>
